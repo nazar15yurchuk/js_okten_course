@@ -111,11 +111,11 @@ while(q <= 20){
 
 document.write(`---------------`)
 let listOfItems = ['html', 'css', 'javascript', 'mysql', 'mongodb', 'react', 'angular', 'node.js'];
-
+document.write(`<ul>`)
 for(let t = 0; t < listOfItems.length; t++){
-    document.write(`<ul><li>${listOfItems[t]}</li></ul>`)
+    document.write(`<li>${listOfItems[t]}</li>`)
 }
-
+document.write(`</ul>`)
 document.write(`---------------`)
 let products = [
     {
@@ -143,7 +143,7 @@ let products = [
     for(let y of products){
         document.write(`<div className="product-card">
         <h3 className="product-title">${y.title}. Price - ${y.price}</h3>
-        <img src = '${y.image}' alt="" class="product-image">
+        <img src = '${y.image}' alt="products" class="product-image">
         </div>`)
     }
 
@@ -164,7 +164,7 @@ document.write(`---------------`)
 
 for(let u of users) {
     if (u.status) {
-        document.write(`<ul>${u.name}</ul>`)
+        document.write(`<div>${u.name}</div>`)
     }
 }
 
@@ -172,7 +172,7 @@ document.write(`---------------`)
 
 for(let u of users) {
     if (!u.status) {
-        document.write(`<ul>${u.name}</ul>`)
+        document.write(`<div>${u.name}</div>`)
     }
 }
 
@@ -180,6 +180,6 @@ document.write(`---------------`)
 
 for(let u of users) {
     if (u.age > 30) {
-        document.write(`<ul>${u.name}</ul>`)
+        document.write(`<div>${u.name}</div>`)
     }
 }
