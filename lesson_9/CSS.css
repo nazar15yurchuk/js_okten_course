@@ -1,0 +1,12 @@
+img{
+    width: 150px;
+    height: 200px;
+}
+.wrap{
+    background: greenyellow;
+    color: black;
+    font-size: 25px;
+    width: 250px;
+    height: 220px;
+    margin: 10px;
+}
