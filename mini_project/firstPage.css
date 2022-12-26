@@ -1,0 +1,28 @@
+body{
+    width: 50%;
+}
+.people{
+    width: 250px;
+    height: 80px;
+    background: greenyellow;
+    border: 1px solid black;
+    display: inline-block;
+    margin: 15px;
+}
+.userName{
+    text-align: center;
+    padding-top: 8px;
+    height: 1px;
+}
+.userId{
+    height: 1px;
+    margin-top: 1px;
+    padding-left: 2px;
+}
+.btnForDescription{
+    width: 100%;
+    height: 20px;
+    margin-top: 31px;
+    padding: 0;
+    border: 1px solid black;
+}

@@ -1,0 +1,27 @@
+.divForPost{
+    border: 1px solid black;
+    height: 25%;
+    font-size: 20px;
+    background: greenyellow;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+.generalDivForComments{
+    font-size: 15px;
+    padding: 0;
+}
+.commentsDiv{
+    background: greenyellow;
+    border: 1px solid black;
+    width: 19.3%;
+    height: 230px;
+    margin: 2px;
+    display: inline-grid;
+    padding: 2px 0 2px 4px;
+}
+.comment{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 50px;
+    padding-bottom: 10px;
+}
